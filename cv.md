@@ -31,3 +31,5 @@ return max + " " + min;
 I am a self-educated student, had no working experience yet
 ## Education
 *  **University:** Franciska Skorina Homel State University, Security systems engineering
+## English
+ **B1**(I had completed 30 hours of english courses in Queens collage, Taunton, UK)
