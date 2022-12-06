@@ -27,7 +27,7 @@ for(var i = 1; i< numArray.length; i++){
 return max + " " + min;
 }
 ```
-## **Experience**
-I am a self-educated student, had no working experience
-## **Education**
+## Experience
+I am a self-educated student, had no working experience yet
+## Education
 *  **University:** Franciska Skorina Homel State University, Security systems engineering
