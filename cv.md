@@ -6,8 +6,8 @@
 *  **GitHub:** [rareunit](https://github.com/rareunit)
 *  **Discord** Nikita Lagoikin (@rareunit)
 ## About Me
- I am 19 y.o., 3rd year student of the Franciska Skorina Homel State University, studying to improve Front-End development skills. I am a good team worker, willing to improve my soft skills.
- ## Skills
+I am 19 y.o., 3rd year student of the Franciska Skorina Homel State University, studying to improve Front-End development skills. I am a good team worker, willing to improve my soft skills.
+## Skills
 * **HTML**
 * **CSS**
 * **JavaScript**
@@ -31,4 +31,4 @@ I am a self-educated student, had no working experience yet
 ## Education
 **University:** Franciska Skorina Homel State University, Security systems engineering
 ## English
- **B1**(I had completed 30 hours of english courses in Queens collage, Taunton, UK)
+ **B1** (I had completed 30 hours of english courses in Queens collage, Taunton, UK)
