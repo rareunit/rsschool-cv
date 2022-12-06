@@ -1,1 +1,0 @@
-# [rsschool-cv](https://rareunit.github.io/rsschool-cv/cv)
