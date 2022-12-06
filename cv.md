@@ -1,4 +1,3 @@
-[## rsschool-cv]()
 ## Nikita Lagoikin
 ## Contacts
 *  **Location:** Gomel, Belarus
@@ -10,26 +9,26 @@
  I am 19 y.o., 3rd year student of the Franciska Skorina Homel State University, studying to improve Front-End development skills. I am a good team worker, willing to improve my soft skills.
  ## Skills
 * **HTML**
-* ** CSS**
-* ** JavaScript**
+* **CSS**
+* **JavaScript**
 ## Code example
 ```
 function highAndLow(numbers){
-var numArray = numbers.split(" ");
-var max      = Number(numArray[0]);
-var min      = Number(numArray[0]);
-var num
-for(var i = 1; i< numArray.length; i++){
-  num = Number(numArray[i]);
-  if(num > max) max = num;
-  if(num < min) min = num;
-}
-return max + " " + min;
+    var numArray = numbers.split(" ");
+    var max      = Number(numArray[0]);
+    var min      = Number(numArray[0]);
+    var num
+    for(var i = 1; i< numArray.length; i++){
+        num = Number(numArray[i]);
+        if(num > max) max = num;
+        if(num < min) min = num;
+    }
+    return max + " " + min;
 }
 ```
 ## Experience
 I am a self-educated student, had no working experience yet
 ## Education
-*  **University:** Franciska Skorina Homel State University, Security systems engineering
+**University:** Franciska Skorina Homel State University, Security systems engineering
 ## English
  **B1**(I had completed 30 hours of english courses in Queens collage, Taunton, UK)
