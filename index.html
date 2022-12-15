@@ -4,9 +4,192 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV#3. CV. Cross-Check</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Oh, sorry, there is nothing here. Stay tuned for next updates</h1>
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-menu__list">
+                <li class="nav-menu__item"> <a href="#about">About me</a></li>
+                <li class="nav-menu__item"> <a href="#experience">Experience</a></li>
+                <li class="nav-menu__item"> <a href="#education">Education</a></li>
+                <li class="nav-menu__item"> <a href="#code-english-skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="about" class="main-screen">
+            <div class="container">
+                <div class="section__wrap">
+                    <div class="main-screen__avatar">
+                        <img class="main-screen__avatar-img" src="assets/img/Me.png" alt="avatar">
+                    </div>
+                    <div class="main-screen__text">
+                        <div class="main-screen__text-title">
+                            <h1>Nick Lagoikin - beginner front end developer</h1>
+                        </div>
+                        <div class="main-screen__text-description">
+                            <h2>I am 19 y.o., 3rd year student of the Franciska Skorina Homel State University, studying to improve Front-End development skills. I am a good team worker, willing to improve my hard skills.</h2>  
+                        </div>
+                        <div class="main-screen__text-button">
+                             <button onclick="window.location.href='#my-contacts'" id="experience" class="contact_btn">Contact me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <section class="strength-experience">
+        <div class="strength">
+            <div class="container">
+                <div class="section-title"><h2>MY STRENGTHS</h2></div>
+                <div class="section__wrap"> 
+                    <div class="section_item">
+                        <div class="section-text-title"><h3>Ambition</h3></div>
+                        <div class="section-text-descripion">I'm passionate about what I do, and never do things half-heartedly.</div>
+                    </div>
+                    <div class="section_item">
+                        <div class="section-text-title"><h3>Precision</h3></div>
+                        <div class="section-text-descripion">I believe it's pointless to do something if you're not going to do it well. </div>
+                    </div>
+                    <div class="section_item">
+                        <div class="section-text-title"><h3>Assertive</h3></div>
+                        <div class="section-text-descripion">I'm not afraid to ask the difficult questions and have the difficult conversations.</div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div id="education" class="experience">
+            <div class="container">
+                <div class="section-title"><h2>MY EXPERIENCE</h2></div>
+                    <div class="section__wrap"> 
+                        <div class="section_item">
+                            <div class="section-text-title"><h3>Not a lot</h3></div>
+                            <div class="section-text-descripion section-text-descripion--big">I am a self-educated student, had no working experience. Willing to get experience from RS School Front End courses :)</div>
+                        </div>
+                    </div>
+            </div>        
+        </div>
+    </section>
+        <section class="education">
+            <div class="container">
+                <div class="section-title"><h2>EDUCATION</h2></div>
+                <div class="education__wrap">
+                    <div class="section__wrap--double">
+                        <div class="section_item">
+                            <div class="section-text-title"><h3>University</h3></div>
+                            <div class="section-text-descripion section-text-descripion--mid">Franciska Skorina Homel State University, Security systems engineering</div>
+                        </div>
+                        <div class="section_item">
+                            <div class="section-text-title"><h3>Courses</h3></div>
+                            <div class="section-text-descripion section-text-descripion--mid">Udemy: Web-developer 2022</div>
+                        </div>
+                    </div>
+                    <div class="section-img">
+                        <img class="education_img" src="assets/img/University.png" alt="University">
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="code-english-skills" class="section__code-english-skills">
+            <div class="container">
+                <div class="section__wrap"> 
+                    <div class="Code">
+                        <div class="section-title"><h2>CODE EXAMPLE</h2></div>
+                        <div class="section__wrap"> 
+                            <div class="section_item">
+                                <div class="section-text-title"><h3>JS</h3></div>
+                                <div class="section-text-descripion section-text-descripion--code">
+                                <pre><code>
+    function highAndLow(numbers){
+        var numArray = numbers.split(" ");
+        var max = Number(numArray[0]);
+        var min = Number(numArray[0]);
+        var num
+        for(var i = 1; i &lt; numArray.length; i++){
+            num = Number(numArray[i]);
+            if(num > max) max = num;
+            if(num &lt; min) min = num;
+        }
+        return max + " " + min;
+    }
+                                </code></pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                <div class="english">
+                    <div class="section-title"><h2>ENGLISH</h2></div>
+                    <div class="section__wrap">
+                        <div class="section_item">
+                            <div class="section-text-title"><h3>B2</h3></div>
+                            <div class="section-text-descripion section-text-descripion">I had completed 30 hours of english courses in Queens collage, Taunton, UK</div>
+                        </div>
+                    </div>
+                </div>
+            <div class="skills">
+                <div class="section-title"><h2>SKILLS</h2></div>
+                <div class="section__wrap">
+                    <div class="section_item">
+                        <div class="section-text-title"><h3>Сurrently learning</h3></div>
+                            <div class="section-text-descripion section-text-descripion">
+                                <ul class="skills__list">
+                                    <li class="skills__item"> HTML</li>
+                                    <li class="skills__item"> CSS</li>
+                                    <li class="skills__item"> JavaScript</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div> 
+            </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <div id="my-contacts" class="section-title"><h2>MY CONTACTS</h2></div>
+                <div class="section__wrap"> 
+                    <div class="section_item">
+                        <div class="section-text-title"><h3>Location</h3></div>
+                        <div class="section-text-descripion">Gomel, Belarus</div>
+                    </div>
+                    <div class="section_item">
+                        <div class="section-text-title"><h3>Phone</h3></div>
+                        <div class="section-text-descripion">+375 29 381-96-48</div>
+                    </div>
+                    <div class="section_item">
+                        <div class="section-text-title"><h3>Email</h3></div>
+                        <div class="section-text-descripion">lagoikinnick@gmail.com</div>
+                    </div>
+                    <div class="section_item">
+                        <div class="section-text-title"><h3>GitHub</h3></div>
+                        <div class="section-text-descripion"><a href="https://github.com/rareunit">rareunit</a></div>
+                    </div>
+                    <div class="section_item">
+                        <div class="section-text-title"><h3>Discord</h3></div>
+                        <div class="section-text-descripion">Nikita Lagoikin (@rareunit)</div>
+                    </div>
+                </div> 
+            </div> 
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="git-link">
+                    <a href="https://github.com/rareunit" class="my-github"><h2>My GitHub</h2></a>
+                </div>
+                <div class="creation-date">
+                    <p class="footer-text">2022</p>
+                </div>
+                <div class="course-link">
+                    <a href="https://rs.school/js/"><img class="footer-logo" src="assets/img/RS.png" alt="RSSchool"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
